@@ -1,0 +1,13 @@
+node_modules/
+public/components
+.nyc_output
+.sass-cache
+bjtech.key
+dist/
+package-lock.json
+*.log
+logs
+private
+csvFiles
+*.pyc
+ssh-keys
