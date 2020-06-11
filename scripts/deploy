@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh gerak@159.89.199.232 <<EOF
+ cd ~/node-app
+ git pull
+ npm install — production
+ pm2 restart all
+ exit
+EOF
